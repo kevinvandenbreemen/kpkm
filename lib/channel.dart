@@ -1,4 +1,5 @@
 import 'kpkm.dart';
+import 'package:kpkm/controller/about.dart';
 
 /// This type initializes an application.
 ///
@@ -26,7 +27,7 @@ class KpkmChannel extends ApplicationChannel {
   Controller get entryPoint {
     final router = Router();
 
-    
+    router.route("/appname").link(()=>AppNameController());
 
     return router;
   }
