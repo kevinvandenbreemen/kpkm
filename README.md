@@ -1,5 +1,7 @@
 # kpkm
 
+A personal knowledge Manager (KPM) tool I am writing to teach myself server-side Dart programming.
+
 ## Running the Application Locally
 
 Run `aqueduct serve` from this directory to run the application. For running within an IDE, run `bin/main.dart`. By default, a configuration file named `config.yaml` will be used.
